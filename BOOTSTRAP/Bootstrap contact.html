@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Jarditou</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+    
+        <img src="IMG/jarditou_logo.jpg" width="300" height="100" alt="">
+
+        <h1>PAGE CONTACT</h1>
+        <p>La qualité depuis 70 ans</p>
+
+        <div class="lien">
+        <ul>
+            <li>
+                <a href="Bootstrap Page d'accueil.html">Accueil</a> <a href="Bootstrap Tableau.html">Tableau</a> <a href="Bootstrap contact.html">Formulaire</a>
+            </li>
+        </ul>
+    </div>
+    
+        <img src="IMG/promotion.jpg" width="1890" height="300" alt="">
+        
+        <h1>Contact</h1>
+        <hr>
+        <ul><li>*Ces zones sont obligatoires</li></ul>
+<br><br>
+
+<form action="/my-handling-form-page" method="post"></form>
+
+      <form>
+       <legend>Vos Coordonnées</legend>
+      
+        <div class="form-group">
+    <label for="nom">Nom*</label><input type="text" class="form-control" id="nom" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)" placeholder="Veuillez saisir votre nom"><br>
+        </div>
+        <div>
+    <label for="prenom">Prénom*</label><input type="text" class="form-control" id="prenom" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)" placeholder="Veuillez saisir votre prénom"><br><br>
+        </div> 
+        <div class="form-check-inline">
+    <label class="form-check-label" for="sexe" id="sexe1">Sexe*:</label>
+    
+    <input class="form-check-input" type="radio" name="sexe" id="sexe1" value="Féminin"> Féminin 
+    <label class="form-check-label" for="sexe" id="sexe2"></label>
+    <input class="form-check-input" type="radio" name="sexe" id="sexe2" value="Masculin"> Masculin
+    <label class="form-check-label" for="sexe" id="sexe3"></label>
+    <input class="form-check-input" type="radio" name="sexe" id="sexe3" value="Neutre"> Neutre
+       </div><br>
+    
+       <div class="form-group">
+    <label for="date">Date de naissance*</label>
+    <input type="date" class="form-control" id="date" placeholder="jj/mm/aaaa"><br>
+    </div>
+    <div>
+    <label for="postal">Code postal*</label>
+    <input type="text" class="form-control" id="postal" ><br>
+    </div>
+    <div>
+    <label for="ads">Adresse</label>
+    <input type="text" class="form-control" id="ads"><br>
+    </div>
+    <div>
+    <label for="ville">Ville</label>
+    <input type="text" class="form-control" id="ville"><br>
+    </div>
+    <div>
+    <label for="email">Email*</label>
+    <input type="email" class="form-control" id="email" placeholder="dave.loper@afpa.fr"><br>
+    </div>
+</form>
+
+
+<br>
+
+
+    <form>
+    <legend>Votre demande</legend>
+
+    <label for="sujet">Sujet*</label>
+    
+    <select class="custom-select" id="sujet" size="1">
+        <option selected="">Veuillez séléctionner un sujet</option>
+        <option value="">Mes commandes</option>
+        <option value="">Question sur un produit</option>
+        <option value="">Réclamation</option>
+        <option value="">Autres</option>
+    </select><br>
+
+
+    <label for="question">Votre question*</label>
+    <textarea class="form-control" name="commentaire" id="question" rows="2" cols="20"></textarea><br><br>
+                   <br>
+                   <div class="form-check">
+                    <input class="form-check" type="checkbox" name="formulaire" id="defaultCheck1" value="ATIC"> *J'accepte le traitement informatique de ce formulaire 
+                    <br><br>
+                   </div>
+<a href="http://bienvu.net/script.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Envoyer</a>
+<Button type="button" class="btn btn-lg btn-primary" disabled>Annuler</Button>
+
+
+</form>
+
+<hr>
+
+
+            <div class="lien">
+            <ul>
+                <li>
+                    <a href="">Mention légales</a> <a href="">Horaires</a> <a href="">Plan du site</a>
+                </li>
+            </ul>
+    </div>
+
+
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
